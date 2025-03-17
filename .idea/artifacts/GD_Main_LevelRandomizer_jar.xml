@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="GD_Main-LevelRandomizer:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/GD_Main_LevelRandomizer_jar</output-path>
+    <root id="archive" name="GD_Main-LevelRandomizer.jar">
+      <element id="module-output" name="GD_Main-LevelRandomizer" />
+    </root>
+  </artifact>
+</component>
