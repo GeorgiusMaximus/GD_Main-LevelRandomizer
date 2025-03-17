@@ -38,7 +38,7 @@ public class GD_MainLevelRandomizer implements ActionListener {
         randomize_button.addActionListener(this);
         panel_2.add(randomize_button);
 
-        level_number = random.nextInt(0, 21);
+        level_number = random.nextInt(0, 22);
 
         switch (level_number){
             case 0:
@@ -138,7 +138,7 @@ public class GD_MainLevelRandomizer implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e) {
         if (e.getSource() == randomize_button){
-            level_number = random.nextInt(0, 21);
+            level_number = random.nextInt(0, 22);
 
             switch (level_number){
                 case 0:
